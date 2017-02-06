@@ -17,7 +17,8 @@ if(carb<0 or cons<0):
     print
 
 else:
-    #che cosa devo scrivere ????? :( :( io non lo so ;(
-
-
-   
+    ore=float(carb)/float(cons)
+    minuti=(ore-int(ore))*60
+    secondi=(minuti-int(minuti))*60
+    print "Tempo di volo:",int(ore),"h",int(minuti),"min",int(secondi),"sec"
+    print 
